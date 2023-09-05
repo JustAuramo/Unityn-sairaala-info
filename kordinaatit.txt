@@ -1,0 +1,31 @@
+Uuden Sairaalan Kordinaatit
+
+Sairaalan Vaatekaappi
+vector4(310.87, -592.43, 43.27, 246.34)
+
+Ensihoidon Varuste kaappi
+vec3(312.53, -597.74, 43.27)
+
+Ensihoidon Locker/Personal Locker
+vec3(315.18, -594.01, 43.27)
+
+KAIKKI YLLÄ OLEVAT ON SOPIVIA UNITYN OX_INVENTORYYN SEKÄ VAATE MENUUN (TESTATTU JA NIITTEN AVULLA CONFATTU)
+
+Uuden Sairaalan Hissit
+
+Helipad/katto
+vector3(329.09, -581.66, 74.18)
+
+Sairaalan aula/alakerta
+vector3(320.01, -571.93, 43.27)
+
+OVI LUKOT ON SISÄLLETTYNÄ SQL TIEDOSTOON JOKA TULEE TÄSSÄ PAKETISSA
+
+AINUT ASIA MITÄ PITÄÄ MUUTTAA ON OVET SQL TIEDOSTOSTA OVIEN ID:T VAPAANA OLEVIKSI
+ESIM 
+1
+2
+3
+4
+5
+JNE
